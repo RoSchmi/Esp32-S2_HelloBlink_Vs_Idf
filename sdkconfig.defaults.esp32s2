@@ -1,0 +1,3 @@
+# Are not propagated to sdkconfig (are no)
+CONFIG_BLINK_LED_STRIP=y
+CONFIG_BLINK_GPIO=18

@@ -1,0 +1,53 @@
+# 🛠️ Build-Artefakte
+/build/
+/**/build/
+/**/build_*_*/
+/*.bin
+/*.elf
+/*.map
+
+# ⚙️ Projektkonfiguration
+sdkconfig
+sdkconfig.old
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# 📦 Komponentenverwaltung
+/components/.idf/
+/managed_components/
+dependencies.lock
+
+# 🧪 Test- und Log-Dateien
+*.log
+*.o
+*.obj
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+pytest_embedded_log/
+build_summary_*.xml
+app_info_*.txt
+size_info_*.txt
+
+# 🧰 Toolchain & ESP-IDF intern
+.espressif/
+
+# 🧠 IDE-spezifisch (Visual Studio Code, Eclipse, etc.)
+.vscode/
+.idea/
+*.suo
+*.user
+*.workspace
+*.sln
+.clangd/
+.ccls-cache/
+
+# 📚 Dokumentation
+/docs/
+
+# 💻 OS-spezifisch
+.DS_Store
+.directory
+Thumbs.db
